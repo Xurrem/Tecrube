@@ -9,6 +9,3 @@ $(document).ready(function(){
     $("i").click(function(){
         $(".menu").toggle();
       });
-
-      
-      
