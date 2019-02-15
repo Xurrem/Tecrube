@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    position: relative;
+}
+.navbar{
+    left:0;
+    width: 100%;
+    background-color: #232323;
+    height: 80px;
+   
+    position: fixed;
+    z-index: 5;
+    
+}
+
+.navbar img{
+   width: 55px;
+   height: 55px;
+   border-radius: 100%;
+   margin-top: 10px;
+   margin-left: 10px;
+   
+    
+}
+
+.navbar h3{
+    color: aliceblue;
+    margin-left: 75px;
+    top: 28px;
+    position: absolute;
+   
+}
+.navbar i{
+    float: right;
+    color: white;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    
+}
+.navbar .menu{
+    /* display: none; */
+    height: 220px;
+    width: 110px;
+    background-color: black; 
+    float: right;
+    z-index: 10;
+    display: none;
+    
+   
+}
+
+.navbar .menu .times{
+    float: right;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    cursor: pointer;
+    float: left;
+    margin-bottom: 5px;
+   
+}
+.navbar .menu li a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    
+    
+}
+.navbar .menu li{
+    text-align: center;
+} 
+.navbar .menu ul{
+    list-style-type: none;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-weight: 600;
+    position: absolute;
+    top: 110px;
+    left: 350px;
+   
+    font-size: 80px;
+}
+
+
+.school{
+    background-color: #232323;
+    height: 550px;
+}
+.school h2{
+    position: relative;
+    top: 50px;
+    color: #c6e2ba;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+
+.container2{
+    margin-top: 100px;
+}
+ .col-4{
+    width: 33%;
+    margin-bottom: 100px;
+    margin-top: 20px; 
+    height: 80px;
+   
+    display: inline-block;
+}
+
+ .col-4 i{
+    font-size: 80px;
+    color: #c6e2ba;
+    position: relative;
+    left: 165px;
+    text-align: center;
+    width: 20px;
+    height: 30px; 
+    
+   
+}
+
+.col-4 h4{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.dance_style{
+    height: 769px;
+    
+    background-color: #c6e2ba
+}
+
+.dance_style h2{
+    position: relative;
+    top: 50px;
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.dance_style .container2 .col-6{
+    width: 50%;
+    height: 300px;
+    position: relative;
+    float: left;
+   
+    
+}
+
+.dance_style .container2 img{
+    
+    display: block;
+    height: 0;
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    width: 0;
+    /* margin: auto; */
+    
+   
+}
+
+.dance_style .container2 h2{
+   font-size: 40px;
+   font-weight: 600;
+   position: absolute;
+   left: 40px;
+}
+
+.dance_style .container2 .ballet{
+   
+
+}
+
+.dance_style .container2 .col-6 p{
+    max-width: 500px;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    top: 120px;
+    left: 40px;
+}
+
+.form{
+    height: 300px;
+    background-color: #232323;
+    
+    /* border: 1px solid blue; */
+}
+
+form{
+    margin: 20px;
+    color: white;
+    font-size: 25px;
+    margin-top: 0;
+    /* margin-top: 40px; */
+}
+
+/* .form .name_surname, .email,.Website{
+   
+    width: 40%;
+    height: 30px;
+    border: 1px solid red;
+    background-color: white;
+    margin:30px;
+} */
+
+
+.container .sumbit{
+    margin-left:20px;
+}
+
